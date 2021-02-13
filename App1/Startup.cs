@@ -36,6 +36,7 @@ namespace App1
                     QueuePollInterval = TimeSpan.Zero,
                     UseRecommendedIsolationLevel = true,
                     DisableGlobalLocks = true,
+                    SchemaName = "HangFireApp1",
                 }));
 
             services.AddHangfireServer();
